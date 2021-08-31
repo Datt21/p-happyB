@@ -1,0 +1,61 @@
+html {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Open sans", sans-serif;
+    font-size: 18px;
+    line-height: 1;
+    color: white;
+    /* background-color: #222831; */
+    overflow-x: hidden;
+}
+
+.wrapper {
+    max-width: 1920px;
+    margin: 0 auto;
+    background: url("../images/banner.jpg") no-repeat top/100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.img-logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.header-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+}
