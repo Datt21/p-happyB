@@ -153,7 +153,7 @@ main {
 }
 
 .office-banner {
-    background-color: white;
+    background-color white;
     font-family: "Arial";
     padding: 0.125em;
     font-size: 4em;
@@ -244,10 +244,6 @@ h1 {
 
 .birthday {
     padding-bottom: 150px;
-}
-
-.icon-day {
-    font-size: 26px;
 }
 
 .birthday-main {

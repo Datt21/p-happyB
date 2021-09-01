@@ -127,15 +127,14 @@ main {
 }
 
 .caption-1 {
-    font-size: 30px;
-    font-weight: 700;
+    font-size: 40px;
+    font-weight: 600;
     color: whitesmoke;
 }
 
 .caption-1 span {
     color: #f56766;
-    font-size: 40px;
-    font-weight: 800;
+    font-size: 60px;
 }
 
 .about-item:nth-child(2) {
@@ -153,13 +152,13 @@ main {
 }
 
 .office-banner {
-    background-color: white;
+    background-color: #e2ddd8;
     font-family: "Arial";
     padding: 0.125em;
     font-size: 4em;
     text-align: center;
     white-space: nowrap;
-    min-height: 15vh;
+    min-height: 20vh;
 }
 
 .subs {
@@ -246,10 +245,6 @@ h1 {
     padding-bottom: 150px;
 }
 
-.icon-day {
-    font-size: 26px;
-}
-
 .birthday-main {
     display: flex;
     justify-content: space-between;
@@ -263,32 +258,13 @@ h1 {
     color: #f56766;
     position: relative;
     flex: 1;
-    text-align: center;
 }
 
-.birthday-dots {
+.birthday-number img {
     position: absolute;
     right: -150px;
-    top: 45%;
+    top: 50%;
     z-index: -99;
-}
-
-.birthday-year {
-    position: relative;
-    z-index: 2;
-    background: url("../images/mask.png") no-repeat 50%;
-    color: transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
-}
-
-.birthday-mask {
-    position: absolute;
-    top: 0;
-    pointer-events: none;
-    left: 50%;
-    transform: translateX(-50%);
-    display: none;
 }
 
 .caption {
@@ -318,7 +294,3 @@ h1 {
     margin-left: auto;
     flex-shrink: 0;
 }
-
-/* .you-header {
-    margin-bottom: 50px;
-} */
