@@ -11,7 +11,7 @@ function frame() {
   confetti({
     particleCount: 2,
     angle: 120,
-    spread: 100,
+    spread: 60,
     origin: { x: 1 },
     colors: colors,
   });

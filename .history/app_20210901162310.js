@@ -1,29 +1,28 @@
-var colors = ["#f56766", "#fdac53" , "#f0f0f0"];
+var colors = ["#8b5642", "#fdac53" , "#f5df4d", "#f0f0f0"];
 
 function frame() {
   confetti({
     particleCount: 2,
     angle: 60,
-    spread: 55,
+    spread: 50,
     origin: { x: 0 },
     colors: colors,
   });
   confetti({
     particleCount: 2,
     angle: 120,
-    spread: 100,
+    spread: 50,
     origin: { x: 1 },
     colors: colors,
   });
 
-  // if (Date.now() < Date.now() + 15000) {
-  //   requestAnimationFrame(frame);
-  // }
+  if (Date.now() < Date.now() + 10000) {
+    requestAnimationFrame(frame);
+  }
 }
 
 window.addEventListener('scroll', function (){
-  if(window.pageYOffset > 800 && Date.now() < Date.now() + 15000){
-    requestAnimationFrame(frame);
+  if(window.pageYOffset > 500){
     window.onload = frame();
   }
 })

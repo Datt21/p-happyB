@@ -1,4 +1,4 @@
-var colors = ["#f56766", "#fdac53" , "#f0f0f0"];
+var colors = ["#8b5642","#f56766", "#fdac53" , "#f0f0f0"];
 
 function frame() {
   confetti({
@@ -11,7 +11,7 @@ function frame() {
   confetti({
     particleCount: 2,
     angle: 120,
-    spread: 100,
+    spread: 60,
     origin: { x: 1 },
     colors: colors,
   });

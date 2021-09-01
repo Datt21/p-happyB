@@ -1,4 +1,4 @@
-var colors = ["#f56766", "#fdac53" , "#f0f0f0"];
+var colors = ["#8b5642","#f56766", "#fdac53" , "#f5df4d", "#f0f0f0"];
 
 function frame() {
   confetti({
@@ -11,7 +11,7 @@ function frame() {
   confetti({
     particleCount: 2,
     angle: 120,
-    spread: 100,
+    spread: 60,
     origin: { x: 1 },
     colors: colors,
   });
@@ -22,7 +22,7 @@ function frame() {
 }
 
 window.addEventListener('scroll', function (){
-  if(window.pageYOffset > 800 && Date.now() < Date.now() + 15000){
+  if(window.pageYOffset > 1000 && Date.now() < Date.now() + 15000){
     requestAnimationFrame(frame);
     window.onload = frame();
   }
